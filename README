@@ -18,7 +18,7 @@ where X defines your unique player ID. The ID must be a digit between 1 and 9.
 
 To control your snake use the control keys, the VIM keys HJKL or the traditional
 WASD. To speed up use "n" (see Nitro tank on the bottom for your playboard). Nitro
-can be used whenever it's refilled to 25% again.
+can be used whenever it's refilled up to 25% again.
 
 Whenever you're running along the outer border, you automatically speed up.
 
