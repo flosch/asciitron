@@ -1,0 +1,18 @@
+Welcome to asciitron!
+
+This game is related to the movie Tron from 1982.
+
+It supports multiplayer gaming over network; start the server like this:
+
+    python asciitron.py serve X
+
+with X defines how many people will play the game. The server will wait
+until all players are connected.
+
+The client is started like this:
+
+    python asciitron.py connect localhost X
+
+with X defines your unique player ID. The ID must be a digit between 1 and 9.
+
+Have fun!
