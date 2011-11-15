@@ -2,7 +2,8 @@ Welcome to asciitron!
 
 This game is related to the movie Tron from 1982.
 
-It supports multiplayer gaming over network; start the server like this:
+It supports multiplayer gaming over network (single player is working as well);
+start the server like this:
 
     python asciitron.py serve X
 
@@ -14,5 +15,10 @@ The client is started like this:
     python asciitron.py connect localhost X
 
 with X defines your unique player ID. The ID must be a digit between 1 and 9.
+
+To control your snake use the control keys, the VIM keys HJKL or the traditional
+WASD. To speed up use "n" (see Nitro tank on the bottom for your playboard). 
+
+Whenever you're running along the outer border, you automatically speed up.
 
 Have fun!
